@@ -1,3 +1,5 @@
+#HERMOINE'S SPELL
+
 def lumos_step(target, runes):
     
     # turning into upper case

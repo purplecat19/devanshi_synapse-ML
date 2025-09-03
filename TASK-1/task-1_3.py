@@ -5,7 +5,7 @@ maximize damage: no. of 1s should more around the bomb matrix's centre.
 
 #BOMBARDING THE REGION
 
-#given grid
+#given grid (5x5)
 grid = [
     [1,0,0,0,1],
     [1,0,1,1,1],

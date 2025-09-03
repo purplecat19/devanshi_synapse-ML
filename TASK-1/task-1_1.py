@@ -14,7 +14,7 @@ pokedex = {
     "Onix": ("Rock", "Ground")
 }
 
-def generate_combos(k, poke_list, start=0, current=None, result=None):
+def generate_combos(k, poke_list, start=0, current=None, result=None):     #start - to avoid repeating prev pokemons
     if current is None:
         current=[]
     if result is None:
@@ -42,7 +42,7 @@ def find_strongest_team(pokedex):
 
 
         for combo in teams:
-            type_set = set()
+            type_set = set()   #a set to store uniwue values
             for poke in combo:
                 type_set.update(pokedex[poke])
             count = len(type_set)
